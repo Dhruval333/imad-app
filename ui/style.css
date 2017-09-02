@@ -1,7 +1,6 @@
 body {
-    font-family: Monospace;
-    background-color:white;
-    margin-top: 75px;
+    font-family: sans-serif;
+    margin-top: 60px;
 }
 
 .center {
@@ -29,4 +28,3 @@ body {
     padding-right:400px;
     
 }
-
