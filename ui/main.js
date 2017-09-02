@@ -20,7 +20,7 @@ button.onclick = function()
       //Not done yet then don't do anything
     };
     //Make the request
-    request.open('GET','http://pneel813.imad.hasura-app.io/counter', true);
+    request.open('GET','http://dhruvalpatel333.imad.hasura-app.io/counter', true);
     request.send(null);
 };
 //Submit name
