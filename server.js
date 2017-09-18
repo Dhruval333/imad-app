@@ -83,12 +83,12 @@ app.get('/', function (req, res) {
 app.get('/test db',function (req,res){
    //make a select req
    //retur a responce with the results
-  pool.query('select * from test'function (err,result){
-if (err){
+  pool.query('SELECT * FROM test',function (err,result) {
+if (err) {
     res.status(500).send(err.toString());
-} else{
+          } else{
     res.send(JSON,stringify(result));
-}
+              }
   }); 
 });
 var counter  = 0;
